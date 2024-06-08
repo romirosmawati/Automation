@@ -10,7 +10,8 @@ repositories {
 }
 
 dependencies {
-    testImplementation group: 'org.testng', name: 'testng', version: '7.5.1'
+    testImplementation group: 'org.testng', name: 'testng', version: '7.8.0'
+    testImplementation 'junit:junit:4.13.1'
     testImplementation group: 'io.rest-assured', name: 'rest-assured', version: '5.4.0'
     testImplementation group: 'org.json', name: 'json', version: '20240303'
 }
